@@ -1,0 +1,29 @@
+{
+    "name": "igorrozzu/subscription-reminder",
+    "type": "project",
+    "description": "Subscription reminder",
+    "keywords": ["subscription-reminder"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2.0",
+        "ext-pdo_pgsql": "*",
+        "doctrine/dbal": "^3.6"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
